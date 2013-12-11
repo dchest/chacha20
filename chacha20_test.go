@@ -1,3 +1,7 @@
+// Copyright 2013 The Go Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
 package chacha20
 
 import (
@@ -6,7 +10,8 @@ import (
 	"testing"
 )
 
-// Test vectors from http://tools.ietf.org/html/draft-agl-tls-chacha20poly1305-00#section-7
+// Test vectors from
+// http://tools.ietf.org/html/draft-agl-tls-chacha20poly1305-00#section-7
 var testVectors = []struct{ key, nonce, keystream string }{
 	{
 		"0000000000000000000000000000000000000000000000000000000000000000",

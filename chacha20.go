@@ -1,3 +1,8 @@
+// Copyright 2013 The Go Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// Package chacha20 implements ChaCha stream cipher.
 package chacha20
 
 // sigma is the ChaCha20 constant for 256-bit keys.
